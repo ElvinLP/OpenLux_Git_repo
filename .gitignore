@@ -1,4 +1,9 @@
-# Ignore the data folder
-data/
 # Ignore the data files
+data/
 data/openlux.RData
+data/dumps_csv/
+data/dumps_csv/companies.csv
+data/dumps_csv/documents.csv
+data/dumps_csv/owner_company_nature.csv
+data/dumps_csv/persons.csv
+data/dumps_csv/persons_details.csv
