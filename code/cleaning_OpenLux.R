@@ -114,5 +114,9 @@ openlux[, street := iconv(street, from="UTF-8",to="ASCII//TRANSLIT")]
 # there are still some ugly abbreviations ("THRSE" instead of "Therese" or AV.)
 # but we'll leave it here for now
 
+# deletion date for active
+openlux[deletion_date == "", deletion_date := NA]
+openlux[, active2021 := ifelse(is.na(deletion_date), 1, 0)]
+
 save(openlux, file = "data/openlux.Rdata")
 

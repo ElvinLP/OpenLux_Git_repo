@@ -1,0 +1,33 @@
+
+
+everything: active companies (at least active in 2021)
+
+# 1: - Jakob
+companies per person at the walked addresses
+name person | number companies
+
+# 2: - Jakob
+number of companies a person has who also owns a company in the walked addresses
+name person | number companies
+
+# 2B: - Jakob
+number of companies a person has who also owns a company in the walked addresses
+name person | number companies | address
+
+# 3: - Thijs / Jakob / Elvin
+name of companies for each exact address walked 
+name company | street | housenumber | legal type
+
+# 4: - Thijs
+company by legal types
+legal type | street | housenumber | number of companies
+
+# 5: - Elvin
+look for some cute company names of the walked addresses
+
+# 6: ??
+dig around for the Louvre?
+build on 2022 list
+see if we can find those people?
+https://www.louvre.fr/soutenir-le-louvre/le-louvre-remercie-ses-mecenes
+
